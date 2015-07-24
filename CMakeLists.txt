@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 2.6)
+project (TypeRegister)
+add_definitions(-std=c++11)
+include_directories("${PROJECT_BINARY_DIR}")
+add_executable(TypeRegister main.cpp)
